@@ -55,9 +55,9 @@ server_port: 587
 username: ${{ secrets.EM_USERNAME }}
 password: ${{ secrets.EM_PASSWORD }}
 subject: Snyk Scan and Python Script Execution Report
-to:
-from: GitHub Actions <your.email@example.com>
-body: |
+to:wisdomkingsley75@gmail.com
+from: joshwoods9115@gmail.com
+body: Hello Good afternoon , hope you see this message , sent from cyclobold.com
 Snyk scan and Python script execution completed.
 Check the GitHub Actions logs for details: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
 continue-on-error: true
