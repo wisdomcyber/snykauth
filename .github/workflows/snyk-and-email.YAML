@@ -1,4 +1,3 @@
-
 name: Snyk Scan and Email Notification
 
 on:
@@ -23,7 +22,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Snyk
-        uses: snyk/actions/python-3.11@master
+        uses: snyk/actions/python-3.11@v1
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
